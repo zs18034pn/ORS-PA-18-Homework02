@@ -13,8 +13,10 @@
 * Use main() function to test your solution.
 ===================================================
 """
-
-
+def cube_volume(x):
+    if not (isinstance(x,float) or isinstance (x, int)):
+        return -1
+    return abs(x)**3
 
 def main():
 
